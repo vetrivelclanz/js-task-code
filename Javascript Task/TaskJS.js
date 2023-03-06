@@ -113,4 +113,4 @@ const text =[{
     return item.gender == "Female"
   })
   let value1 = Female.reduce((a, b) => a+b.age, 0)/ Female.length;
-   console.log(value);
+   console.log(value1);
