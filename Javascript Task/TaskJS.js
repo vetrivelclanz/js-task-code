@@ -114,3 +114,7 @@ const text =[{
   })
   let value1 = Female.reduce((a, b) => a+b.age, 0)/ Female.length;
    console.log(value1);
+
+const result = {Female:value1, Male:value };
+
+   console.log('object with average age:', result);
